@@ -5,7 +5,7 @@ const Sidebar = () => {
   return (
     <div className="sidebar">
 
-      <div className="logo">Logo</div>
+      <div className="logo">Logo</div> 
 
       <div className="nav_links">
 
