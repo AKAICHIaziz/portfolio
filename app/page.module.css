@@ -1,12 +1,10 @@
 .page {
     display: flex;
     flex-direction: row;
+    overflow-x: hidden;
 }
 
-.sidebar {
-    z-index: 1;
-    position: fixed;
-}
+
 
 .main{
     z-index: 0;

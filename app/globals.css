@@ -3,7 +3,85 @@
     list-style: none;
 }
 
+:root {
+  --h1-font-size: 2.25rem;
+  --h2-font-size: 1.5rem;
+  --h3-font-size: 1.25rem;
+  --normal-font-size: 1rem;
+  --small-font-size: 0.875rem;
+  --smaller-font-size: 0.813rem;
+
+  --first-color: hsl(353, 100%, 65%);
+  --title-color: hsl(244, 24%, 26%);
+  --body-color: hsl(0, 0%, 100%);
+  --container-color: #e7e7e7;
+
+  --font-medium: 500;
+  --font-semibold: 600;
+  --font-bold: 700;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
     padding: 0;
     margin: 0;
 }
+
+.btn {
+  padding: 0.75rem 2rem;
+  line-height: 1;
+  border-radius: 1.875rem;
+  box-shadow: 0 0 1px rgb(0 0 0 / 0%);
+  border: 1px solid transparent;
+  color: var(--title-color);
+  display: inline-block;
+  background-color: hsl(43, 100%, 68%);
+  font-weight: var(--font-bold);
+  cursor: pointer;
+}
+@keyframes button-push {
+  90% {
+      transform: scale(0.9);
+  }
+
+  100% {
+      transform: scale(1);
+  }
+}
+
+.btn:hover {
+  animation: button-push 0.4s linear;
+  background-color: var(--first-color);
+  color: white;
+}
+
+.btn2 {
+  background-color: hsl(247, 23%, 14%);
+  border: 1px solid hsl(43, 100%, 68%);
+  color: hsl(43, 100%, 68%);
+}
+
+.btn2:hover {
+  color: var(--first-color);
+  border: 1px solid var(--first-color);
+  background-color: hsl(247, 23%, 14%);
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: rgb(104, 87, 159);
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #ffffff;
+    border-radius: 20px;
+  }

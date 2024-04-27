@@ -2,7 +2,10 @@
     background-color: hsl(247, 23%, 14%);
     height: 100vh;
     width: calc(100vw - 230px);
+    color: white;
 }
+
+
 
 
 .home__socials {
