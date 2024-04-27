@@ -19,7 +19,6 @@
         position: relative;
     }
     .page {
-        display: flex;
         flex-direction: column-reverse;
     }
     .main{

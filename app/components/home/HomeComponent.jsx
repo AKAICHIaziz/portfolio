@@ -1,8 +1,12 @@
 import React from 'react'
+import SocialMedia from './SocialMedia'
+import "./home.css"
 
 const HomeComponent = () => {
   return (
-    <div>Home</div>
+    <div className='home_container'>
+     HOME
+    </div>
   )
 }
 

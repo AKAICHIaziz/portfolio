@@ -9,7 +9,7 @@
 }
 
 .logo {
-    margin-top: 5vh;
+    margin-top: 20px;
     color: white;
 }
 .nav_links {
@@ -42,7 +42,7 @@ svg {
     font-size: 17px;
 }
 .nav_link:hover {
-    background-color: #727272;
+    background-color: #393651;
     color: hsl(43, 100%, 68%);
 }
 
@@ -55,13 +55,6 @@ svg {
 
 @media screen and (max-width: 990px) {
     .sidebar {
-        /* background-color: hsl(247, 23%, 21%);
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        height: 100vh;
-        width: 230px; */
         width: 100vw;
         height: 50px;
         bottom: 0;
