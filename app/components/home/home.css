@@ -1,7 +1,7 @@
 .home_container {
     background-color: hsl(247, 23%, 14%);
     height: 100vh;
-    width: calc(100vw - 246.5px);
+    width: calc(100vw - 230px);
 }
 
 
