@@ -47,6 +47,12 @@ svg {
     background-color: #393651;
     color: hsl(43, 100%, 68%);
 }
+.active {
+    color: hsl(43, 100%, 68%);
+}
+.active:hover{
+    background-color: #393651;
+}
 
 .copyright {
     color: rgb(139, 139, 139);

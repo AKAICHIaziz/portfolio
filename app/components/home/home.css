@@ -1,16 +1,61 @@
-.home_container {
+.home_section {
     background-color: hsl(247, 23%, 14%);
     height: 100vh;
     width: calc(100vw - 230px);
     color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+.profile{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 100px;
+    height: 350px;
+}
 
+.profile_info{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 450px;
+    justify-content: space-between;
+}
+.hi{
+    font-size: var(--h1-font-size);
+}
+.name {
+    font-size: var(--h1-font-size);
+    font-weight: var(--font-medium);
+    color: var(--text-color);
+}
+.description {
+    font-size: 33px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.description span {
+    color: hsl(43, 100%, 68%);
+}
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.profile_image img {
+    border-radius: 50%;
+    box-shadow: -23px 28px 50px 4px hsl(353, 100%, 65%, 0.1), 23px -20px 50px -3px hsl(43, 100%, 68%, 0.3);
+    width: 300px;
+    border: 2px solid hsl(43, 100%, 68%);
+}
 
 
 .home__socials {
     height: 50px;
-    width: 370px;
+    width: 450px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -30,7 +75,7 @@
 }
 
 @media screen and (max-width: 990px) {
-    .home_container {
+    .home_section {
         background-color: hsl(247, 23%, 14%);
         height: 100vh;
         width: 100vw;

@@ -3,6 +3,7 @@ import styles from "./page.module.css";
 import Sidebar from "./components/sidebar/Sidebar";
 import HomeComponent from "./components/home/HomeComponent"
 import About from "./components/about/About";
+import Services from "./components/services/Services";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <div className={styles.main}>
         <HomeComponent />
         <About />
+        <Services />
       </div>
     </div>
   );
